@@ -1,0 +1,104 @@
+/******Base Styles******/
+
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	width: 90%;
+	margin: 0px auto;
+}
+
+h1,h2 {
+	font-family: 'Merriweather', serif;
+
+}
+header {
+	margin: 5em auto;
+	text-align: center;
+}
+
+.row	{
+	width: 100%;
+}
+
+.dish-name h2 {
+	position: relative;
+	left: 60%;
+	height: 100%;
+	width: 40%;
+	border: 1px solid black;
+	border-right: none;
+	border-top:none;
+	text-align: center;
+	margin:0px 0px;
+	background-color: #fff;
+	
+}	
+
+#chiken {
+ 	
+	background-color: #FF484A;
+	color: #fff;
+}
+#beef {
+	background-color: #E84B30;
+	color: #fff;
+}
+#sushi {
+	background-color: #B243FF;
+	color: #fff;
+}
+
+p {
+	margin: 0;
+	padding: 1em;
+  font-weight: bold;
+}
+
+/********************Desktop version of the site*******************/
+@media (min-width: 992px) {
+   .col-lg-4 {
+   	width: 31.33%;
+    float: left;
+    border: 1px solid black;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: gray;
+    
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: gray;
+    
+  }
+
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12 {
+    width: 98%;
+  }
+ }
+
+/********************Small devices only*********************/
+@media  (max-width: 767px) {
+   .col-sm-12 {
+   	width: 98%;
+    float: left;
+    border: 1px solid black;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: gray;
+    
+  }
+
+}
